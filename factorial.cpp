@@ -2,7 +2,7 @@
 #include <iostream>
 
 int factorial(int n){
-  
+  cout << "Random Thing" << endl;
   while(n < 0){
     std::cout<<"Please enter a positive number\n";
     std::cin>>n;
