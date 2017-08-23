@@ -1,9 +1,9 @@
 #include "functions.h"
-#include<iostream>
+#include <iostream>
 
 int factorial(int n){
-
-  while(n<1){
+  
+  while(n < 0){
     std::cout<<"Please enter a positive number\n";
     std::cin>>n;
   }
